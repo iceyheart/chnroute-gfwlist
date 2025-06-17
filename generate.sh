@@ -2,7 +2,7 @@
 
 # Script to generate RouterOS configuration files for China IP routes and GFW domain lists
 # Author: ruijzhan
-# Repository: https://github.com/ruijzhan/chnroute
+# Repository: https://github.com/iceyheart/chnroute-gfwlist
 
 set -euo pipefail
 
@@ -126,7 +126,7 @@ create_gfwlist_rsc() {
     # Write header to the temporary file
     cat <<EOL >"$tmp_file"
 # RouterOS script for GFW domain list - Version $version
-# Source: https://github.com/ruijzhan/chnroute
+# Source: https://github.com/iceyheart/chnroute-gfwlist
 
 :global dnsserver
 /ip dns static remove [/ip dns static find forward-to=\$dnsserver ]
