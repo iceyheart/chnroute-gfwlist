@@ -1,6 +1,6 @@
 # chnroute
 
-[![built with Codeium](https://codeium.com/badges/main)](https://codeium.com) [![Daily Make and Commit](https://github.com/ruijzhan/chnroute/actions/workflows/main.yaml/badge.svg)](https://github.com/ruijzhan/chnroute/actions/workflows/main.yaml)
+[![built with Codeium](https://codeium.com/badges/main)](https://codeium.com) [![Daily Make and Commit](https://github.com/iceyheart/chnroute-gfwlist/actions/workflows/main.yaml/badge.svg)](https://github.com/iceyheart/chnroute-gfwlist/actions/workflows/main.yaml)
 
 ## 项目简介
 
@@ -75,11 +75,11 @@ make
 ```ros
 /system script
 add dont-require-permissions=no name=cn owner=admin policy=ftp,reboot,read,write,policy,test,password,sniff,sensitive,romon source="
-/tool fetch url=https://raw.githubusercontent.com/ruijzhan/chnroute/master/CN.rsc
+/tool fetch url=https://raw.githubusercontent.com/iceyheart/chnroute-gfwlist/refs/heads/master/CN.rsc
 import file-name=CN.rsc
 file remove CN.rsc
 
-/tool fetch url=https://raw.githubusercontent.com/ruijzhan/chnroute/master/LAN.rsc
+/tool fetch url=https://raw.githubusercontent.com/iceyheart/chnroute-gfwlist/refs/heads/master/LAN.rsc
 import file-name=LAN.rsc
 file remove LAN.rsc"
 ```
@@ -125,7 +125,7 @@ Columns: NAME, VALUE
 ```ros
 /system script
 add dont-require-permissions=no name=gfwlist owner=admin policy=ftp,reboot,read,write,policy,test,password,sniff,sensitive,romon source="
-/tool fetch url=https://raw.githubusercontent.com/ruijzhan/chnroute/master/gfwlist.rsc
+/tool fetch url=https://raw.githubusercontent.com/iceyheart/chnroute-gfwlist/refs/heads/master/gfwlist.rsc
 /import file-name=gfwlist.rsc
 /file remove gfwlist.rsc
 :log warning \"gfwlist 域名导入成功\""
@@ -230,7 +230,7 @@ A: 在 RouterOS 中运行以下命令查看已加载的规则：
 
 ## 7. 贡献与反馈
 
-欢迎通过 [Issues](https://github.com/ruijzhan/chnroute/issues) 或 [Pull Requests](https://github.com/ruijzhan/chnroute/pulls) 提交改进建议或反馈问题。
+欢迎通过 [Issues](https://github.com/iceyheart/chnroute-gfwlist/issues) 或 [Pull Requests](https://github.com/iceyheart/chnroute-gfwlist/pulls) 提交改进建议或反馈问题。
 
 ---
 
