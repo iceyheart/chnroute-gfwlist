@@ -1035,6 +1035,7 @@
     "clarionproject.org";
     "classicalguitarblog.net";
     "claude.ai";
+    "claw.cloud";
     "clb.org.hk";
     "cldr.unicode.org";
     "cleansite.biz";
@@ -5872,4 +5873,4 @@
 /ip dns cache flush
 
 # Log completion
-/log info "GFW domain list updated with 5856 domains"
+/log info "GFW domain list updated with 5857 domains"
