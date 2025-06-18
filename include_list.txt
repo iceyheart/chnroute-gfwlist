@@ -5,3 +5,4 @@ codeiumdata.com
 docker.io
 xiaoya.pro
 zhuifan.link
+free.hr
