@@ -5834,6 +5834,7 @@
     "zhuanxing.cn";
     "zhuatieba.com";
     "zhuichaguoji.org";
+    "zhuifan.link";
     "zi.media";
     "ziddu.com";
     "zillionk.com";
@@ -5880,4 +5881,4 @@
 /ip dns cache flush
 
 # Log completion
-/log info "GFW domain list updated with 5864 domains"
+/log info "GFW domain list updated with 5865 domains"
