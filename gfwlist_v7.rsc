@@ -5642,6 +5642,7 @@
     "xiaolan.me";
     "xiaoma.org";
     "xiaomi.eu";
+    "xiaoya.pro";
     "xiaxiaoqiang.net";
     "xiezhua.com";
     "xihua.es";
@@ -5879,4 +5880,4 @@
 /ip dns cache flush
 
 # Log completion
-/log info "GFW domain list updated with 5863 domains"
+/log info "GFW domain list updated with 5864 domains"
