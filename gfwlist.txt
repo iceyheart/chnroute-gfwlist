@@ -1775,6 +1775,7 @@ free-ss.site
 free.bg
 free.com.tw
 free.fr
+free.hr
 freebeacon.com
 freebrowser.org
 freechal.com

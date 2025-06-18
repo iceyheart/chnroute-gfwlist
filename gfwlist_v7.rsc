@@ -1782,6 +1782,7 @@
     "free.bg";
     "free.com.tw";
     "free.fr";
+    "free.hr";
     "freebeacon.com";
     "freebrowser.org";
     "freechal.com";
@@ -5881,4 +5882,4 @@
 /ip dns cache flush
 
 # Log completion
-/log info "GFW domain list updated with 5865 domains"
+/log info "GFW domain list updated with 5866 domains"
