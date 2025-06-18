@@ -195,7 +195,6 @@
     "agoogleaday.com";
     "agro.hk";
     "ai.binwang.me";
-    "ai.com";
     "aiosearch.com";
     "aiph.net";
     "airasia.com";
@@ -219,7 +218,6 @@
     "alarab.qa";
     "alasbarricadas.org";
     "alforattv.net";
-    "algolia.net";
     "alhayat.com";
     "alicejapan.co.jp";
     "aliengu.com";
@@ -313,7 +311,6 @@
     "api.ai";
     "api.pureapk.com";
     "api.recaptcha.net";
-    "api.statsig.com";
     "api.steampowered.com";
     "apiary.io";
     "apigee.com";
@@ -389,7 +386,6 @@
     "auctions.yahoo.co.jp";
     "audacy.com";
     "auntology.fandom.com";
-    "auth0.com";
     "authorizeddns.net";
     "authorizeddns.org";
     "autodraw.com";
@@ -736,7 +732,6 @@
     "broadbook.com";
     "broadpressinc.com";
     "brookings.edu";
-    "browser-intake-datadoghq.com";
     "brucewang.net";
     "brutaltgp.com";
     "bsky.app";
@@ -920,9 +915,8 @@
     "chaos.social";
     "character.ai";
     "chat.lmsys.org";
-    "chat.openai.com.cdn.cloudflare.net";
+    "chat.openai.com";
     "chatgpt.com";
-    "chatgpt.livekit.cloud";
     "chatnook.com";
     "chaturbate.com";
     "checkgfw.com";
@@ -1052,7 +1046,6 @@
     "clearsurance.com";
     "clearwisdom.net";
     "clementine-player.org";
-    "client-api.arkoselabs.com";
     "clinica-tibet.ru";
     "clipconverter.cc";
     "clipfish.de";
@@ -1569,7 +1562,6 @@
     "eurekavpt.com";
     "euronews.com";
     "evchk.wikia.com";
-    "events.statsigapi.net";
     "everipedia.org";
     "evschool.net";
     "exam.gov.tw";
@@ -1687,7 +1679,6 @@
     "fdc64.de";
     "fdc64.org";
     "fdc89.jp";
-    "featuregates.org";
     "feedburner.com";
     "feeder.co";
     "feeds.fileforum.com";
@@ -2496,7 +2487,6 @@
     "hornygamer.com";
     "hornytrip.com";
     "horrorporn.com";
-    "host.livekit.cloud";
     "hostloc.com";
     "hotair.com";
     "hotav.tv";
@@ -2611,7 +2601,6 @@
     "id.heroku.com";
     "idemocracy.asia";
     "identi.ca";
-    "identrust.com";
     "idiomconnection.com";
     "idope.se";
     "idouga.com";
@@ -2694,8 +2683,6 @@
     "instanthq.com";
     "institut-tibetain.org";
     "interactivebrokers.com";
-    "intercom.io";
-    "intercomcdn.com";
     "internet.org";
     "internetdefenseleague.org";
     "internetfreedom.org";
@@ -2987,7 +2974,6 @@
     "lastcombat.com";
     "lastfm.es";
     "latelinenews.com";
-    "launchdarkly.com";
     "lausan.hk";
     "lbank.info";
     "ld.hao123img.com";
@@ -3643,12 +3629,9 @@
     "nytstyle.com";
     "nzchinese.com";
     "o3o.ca";
-    "oaistatic.com";
-    "oaiusercontent.com";
     "oanda.com";
     "oann.com";
     "observechina.net";
-    "observeit.net";
     "obutu.com";
     "obyte.org";
     "ocaspro.com";
@@ -3712,12 +3695,7 @@
     "oojj.de";
     "open.com.hk";
     "open.firstory.me";
-    "openai-api.arkoselabs.com";
     "openai.com";
-    "openaiapi-site.azureedge.net";
-    "openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net";
-    "openaicom.imgix.net";
-    "openaicomproductionae4b.blob.core.windows.net";
     "opendemocracy.net";
     "opendn.xyz";
     "openid.net";
@@ -3980,7 +3958,6 @@
     "privatevpn.com";
     "privoxy.org";
     "procopytips.com";
-    "production-openaicom-storage.azureedge.net";
     "project-syndicate.org";
     "prosiben.de";
     "proton.me";
@@ -4284,7 +4261,6 @@
     "seesmic.com";
     "seevpn.com";
     "seezone.net";
-    "segment.io";
     "sehuatang.net";
     "sehuatang.org";
     "sejie.com";
@@ -4292,7 +4268,6 @@
     "sendsmtp.com";
     "sendspace.com";
     "sensortower.com";
-    "sentry.io";
     "servehttp.com";
     "serveuser.com";
     "serveusers.com";
@@ -4552,7 +4527,6 @@
     "startuplivingchina.com";
     "stat.gov.tw";
     "static-economist.com";
-    "static.cloudflareinsights.com";
     "static.shemalez.com";
     "static01.nyt.com";
     "staticflickr.com";
@@ -4590,7 +4564,6 @@
     "streamingthe.net";
     "streema.com";
     "strikingly.com";
-    "stripe.com";
     "strongvpn.com";
     "strongwindpress.com";
     "studentsforafreetibet.org";
@@ -5041,7 +5014,6 @@
     "turbobit.net";
     "turbohide.com";
     "turkistantimes.com";
-    "turn.livekit.cloud";
     "turntable.fm";
     "tushycash.com";
     "tuvpn.com";
@@ -5907,4 +5879,4 @@
 /ip dns cache flush
 
 # Log completion
-/log info "GFW domain list updated with 5891 domains"
+/log info "GFW domain list updated with 5863 domains"
