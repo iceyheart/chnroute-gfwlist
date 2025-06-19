@@ -15,6 +15,7 @@ readonly EXCLUDE_LIST_TXT="exclude_list.txt"
 readonly GFWLIST="gfwlist.txt"
 readonly LIST_NAME="gfw_list"
 readonly DNS_SERVER="\$dnsserver"
+readonly GFWLIST_RSC="gfwlist.rsc"
 readonly GFWLIST_V7_RSC="gfwlist_v7.rsc"
 readonly CN_RSC="CN.rsc"
 readonly CN_IN_MEM_RSC="CN_mem.rsc"
@@ -149,7 +150,7 @@ EOL
 
 # Add each domain to DNS static entries
 :foreach domain in=\$domainList do={
-    /ip dns static add forward-to=\$dnsserver type=FWD address-list=gfw_list match-subdomain=yes name=\$domain
+    /ip dns static add forward-to=\$dnsserver type=FWD address-list=gfwlist match-subdomain=yes name=\$domain
 }
 
 # Flush DNS cache to apply changes
