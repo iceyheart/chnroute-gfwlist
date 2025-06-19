@@ -90,12 +90,7 @@ run_gfwlist2dnsmasq() {
     local log_file="${TMP_DIR}/gfwlist2dnsmasq.log"
     
     # Run gfwlist2dnsmasq.sh with appropriate options, redirecting all output to the log file
-    if bash "$GFWLIST2DNSMASQ_SH" \
-        --domain-list \
-        --extra-domain-file "$INCLUDE_LIST_TXT" \
-        --exclude-domain-file "$EXCLUDE_LIST_TXT" \
-        --output "$GFWLIST_CONF" > "$log_file" 2>&1; then
-        
+    if bash "$GFWLIST2DNSMASQ_SH" --output "$GFWLIST_CONF" > "$log_file" 2>&1; then
         local domain_count
         domain_count=$(wc -l < "$GFWLIST")
         log_success "Generated gfwlist with $domain_count domains"
