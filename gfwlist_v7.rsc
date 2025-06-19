@@ -5875,7 +5875,7 @@
 
 # Add each domain to DNS static entries
 :foreach domain in=$domainList do={
-    /ip dns static add forward-to=$dnsserver type=FWD address-list=gfw_list match-subdomain=yes name=$domain
+    /ip dns static add forward-to=$dnsserver type=FWD address-list=gfwlist match-subdomain=yes name=$domain
 }
 
 # Flush DNS cache to apply changes
