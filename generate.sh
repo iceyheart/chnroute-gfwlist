@@ -91,7 +91,7 @@ run_gfwlist2dnsmasq() {
     
     # Run gfwlist2dnsmasq.sh with appropriate options, redirecting all output to the log file
     if bash "$GFWLIST2DNSMASQ_SH" \
-        --domain-list "$GFWLIST"\
+        --domain-list \
         --extra-domain-file "$INCLUDE_LIST_TXT" \
         --exclude-domain-file "$EXCLUDE_LIST_TXT" \
         --output "$GFWLIST_CONF" > "$log_file" 2>&1; then
