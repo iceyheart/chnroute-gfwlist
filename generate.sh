@@ -19,7 +19,7 @@ readonly GFWLIST_RSC="gfwlist.rsc"
 readonly GFWLIST_V7_RSC="gfwlist_v7.rsc"
 readonly CN_RSC="CN.rsc"
 readonly CN_IN_MEM_RSC="CN_mem.rsc"
-readonly GFWLIST_CONF="03-gfwlist.conf"
+readonly GFWLIST_CONF="gfwlist.conf"
 
 # Source URLs
 readonly CN_URL="http://www.iwik.org/ipcountry/mikrotik/CN"
