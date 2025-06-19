@@ -176,8 +176,8 @@ check_depends() {
 get_args() {
     # Default values
     OUT_TYPE='DNSMASQ_RULES'
-    DNS_IP='127.0.0.1'
-    DNS_PORT='5353'
+    DNS_IP='10.0.0.216'
+    DNS_PORT=''
     IPSET_NAME=''
     OUT_FILE=''
     CURL_EXTARG=''
