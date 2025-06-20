@@ -262,6 +262,7 @@
     "amnestyusa.org";
     "ampproject.org";
     "amtb-taipei.org";
+    "amuletmc.com";
     "anchor.fm";
     "anchorfree.com";
     "ancsconf.org";
@@ -5883,4 +5884,4 @@
 /ip dns cache flush
 
 # Log completion
-/log info "GFW domain list updated with 5867 domains"
+/log info "GFW domain list updated with 5868 domains"
