@@ -2,7 +2,7 @@
 
 # Script to generate RouterOS configuration files for China IP routes and GFW domain lists
 # Author: ruijzhan
-# Repository: https://github.com/iceyheart/chnroute-gfwlist
+# Repository: https://github.com/ruijzhan/chnroute
 
 set -euo pipefail
 
@@ -13,13 +13,12 @@ readonly GFWLIST2DNSMASQ_SH="gfwlist2dnsmasq.sh"
 readonly INCLUDE_LIST_TXT="include_list.txt"
 readonly EXCLUDE_LIST_TXT="exclude_list.txt"
 readonly GFWLIST="gfwlist.txt"
-readonly LIST_NAME="gfwlist"
+readonly LIST_NAME="gfw_list"
 readonly DNS_SERVER="\$dnsserver"
-readonly GFWLIST_RSC="gfwlist.rsc"
 readonly GFWLIST_V7_RSC="gfwlist_v7.rsc"
 readonly CN_RSC="CN.rsc"
 readonly CN_IN_MEM_RSC="CN_mem.rsc"
-readonly GFWLIST_CONF="gfwlist.conf"
+readonly GFWLIST_CONF="03-gfwlist.conf"
 
 # Source URLs
 readonly CN_URL="http://www.iwik.org/ipcountry/mikrotik/CN"
@@ -90,7 +89,12 @@ run_gfwlist2dnsmasq() {
     local log_file="${TMP_DIR}/gfwlist2dnsmasq.log"
     
     # Run gfwlist2dnsmasq.sh with appropriate options, redirecting all output to the log file
-    if bash "$GFWLIST2DNSMASQ_SH" --output "$GFWLIST_CONF" > "$log_file" 2>&1; then
+    if bash "$GFWLIST2DNSMASQ_SH" \
+        --domain-list \
+        --extra-domain-file "$INCLUDE_LIST_TXT" \
+        --exclude-domain-file "$EXCLUDE_LIST_TXT" \
+        --output "$GFWLIST" > "$log_file" 2>&1; then
+        
         local domain_count
         domain_count=$(wc -l < "$GFWLIST")
         log_success "Generated gfwlist with $domain_count domains"
@@ -122,7 +126,7 @@ create_gfwlist_rsc() {
     # Write header to the temporary file
     cat <<EOL >"$tmp_file"
 # RouterOS script for GFW domain list - Version $version
-# Source: https://github.com/iceyheart/chnroute-gfwlist
+# Source: https://github.com/ruijzhan/chnroute
 
 :global dnsserver
 /ip dns static remove [/ip dns static find forward-to=\$dnsserver ]
@@ -145,7 +149,7 @@ EOL
 
 # Add each domain to DNS static entries
 :foreach domain in=\$domainList do={
-    /ip dns static add forward-to=\$dnsserver type=FWD address-list=gfwlist match-subdomain=yes name=\$domain
+    /ip dns static add forward-to=\$dnsserver type=FWD address-list=gfw_list match-subdomain=yes name=\$domain
 }
 
 # Flush DNS cache to apply changes
