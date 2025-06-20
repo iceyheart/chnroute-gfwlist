@@ -183,8 +183,8 @@ get_args() {
     CURL_EXTARG=''
     WGET_EXTARG=''
     WITH_IPSET=0
-    EXTRA_DOMAIN_FILE=''
-    EXCLUDE_DOMAIN_FILE=''
+    EXTRA_DOMAIN_FILE='include_list.txt'
+    EXCLUDE_DOMAIN_FILE='exclude_list.txt'
     
     # IP address validation patterns
     IPV4_PATTERN='^((2[0-4][0-9]|25[0-5]|[01]?[0-9][0-9]?)\.){3}(2[0-4][0-9]|25[0-5]|[01]?[0-9][0-9]?)$'
