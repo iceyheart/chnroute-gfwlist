@@ -3068,6 +3068,7 @@
     "lizhizhuangbi.com";
     "lkcn.net";
     "load.to";
+    "loader.to";
     "lobsangwangyal.com";
     "localbitcoins.com";
     "localdomain.ws";
@@ -5889,4 +5890,4 @@
 /ip dns cache flush
 
 # Log completion
-/log info "GFW domain list updated with 5873 domains"
+/log info "GFW domain list updated with 5874 domains"
