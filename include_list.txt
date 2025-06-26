@@ -6,3 +6,4 @@ docker.io
 free.hr
 xiaoya.pro
 zhuifan.link
+loader.to
