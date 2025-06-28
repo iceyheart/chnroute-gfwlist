@@ -2646,6 +2646,7 @@
     "imdb.com";
     "img.dlsite.jp";
     "img.ly";
+    "img.picgo.net";
     "imgasd.com";
     "imgchili.net";
     "imgmega.com";
@@ -5888,4 +5889,4 @@
 /ip dns cache flush
 
 # Log completion
-/log info "GFW domain list updated with 5872 domains"
+/log info "GFW domain list updated with 5873 domains"
