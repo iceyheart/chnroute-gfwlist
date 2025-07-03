@@ -1358,6 +1358,7 @@
     "dongtaiwang.net";
     "dongyangjing.com";
     "dontfilter.us";
+    "doom9.org";
     "doosho.com";
     "doourbest.org";
     "dorjeshugden.com";
@@ -3569,6 +3570,7 @@
     "nordvpn.com";
     "nos.nl";
     "notepad-plus-plus.org";
+    "notion.site";
     "nottinghampost.com";
     "now.com";
     "now.im";
@@ -5889,4 +5891,4 @@
 /ip dns cache flush
 
 # Log completion
-/log info "GFW domain list updated with 5873 domains"
+/log info "GFW domain list updated with 5875 domains"
