@@ -7,3 +7,4 @@ free.hr
 loader.to
 xiaoya.pro
 zhuifan.link
+notion.site
