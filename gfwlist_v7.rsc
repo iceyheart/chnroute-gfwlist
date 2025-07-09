@@ -1440,6 +1440,7 @@
     "e-info.org.tw";
     "e-zone.com.hk";
     "e123.hk";
+    "e621.net";
     "earlytibet.com";
     "earthcam.com";
     "earthvpn.com";
@@ -5891,4 +5892,4 @@
 /ip dns cache flush
 
 # Log completion
-/log info "GFW domain list updated with 5875 domains"
+/log info "GFW domain list updated with 5876 domains"
