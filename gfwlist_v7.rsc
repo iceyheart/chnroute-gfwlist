@@ -3773,6 +3773,7 @@
     "pandavpnpro.com";
     "pandora.com";
     "pandora.tv";
+    "panku8.com";
     "panoramio.com";
     "pao-pao.net";
     "paper.li";
@@ -5893,4 +5894,4 @@
 /ip dns cache flush
 
 # Log completion
-/log info "GFW domain list updated with 5877 domains"
+/log info "GFW domain list updated with 5878 domains"
