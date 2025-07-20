@@ -4,7 +4,6 @@ codeium.com
 codeiumdata.com
 docker.io
 free.hr
-grok.com
 loader.to
 notion.site
 panku8.com
