@@ -5393,6 +5393,7 @@
     "wahas.com";
     "waikeung.org";
     "wainao.me";
+    "walletconnect.com";
     "wallmama.com";
     "wallpapercasa.com";
     "wallproxy.com";
@@ -5896,4 +5897,4 @@
 /ip dns cache flush
 
 # Log completion
-/log info "GFW domain list updated with 5880 domains"
+/log info "GFW domain list updated with 5881 domains"
