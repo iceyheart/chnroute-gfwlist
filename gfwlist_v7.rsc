@@ -544,6 +544,7 @@
     "biliworld.com";
     "billypan.com";
     "binance.com";
+    "binance.org";
     "binancezh.cc";
     "binux.me";
     "bird.so";
@@ -2676,6 +2677,7 @@
     "indiemerch.com";
     "inews-api.tvb.com";
     "info-graf.fr";
+    "infura.io";
     "inherit.live";
     "initiativesforchina.org";
     "inkbunny.net";
@@ -3101,6 +3103,7 @@
     "lsxszzg.com";
     "ltn.com.tw";
     "luckydesigner.space";
+    "luckymobile.ca";
     "ludepress.com";
     "luke54.com";
     "luke54.org";
@@ -3223,6 +3226,7 @@
     "messenger.com";
     "meta.com";
     "metafilter.com";
+    "metamask.io";
     "metart.com";
     "metarthunter.com";
     "meteorshowersonline.com";
@@ -5902,4 +5906,4 @@
 /ip dns cache flush
 
 # Log completion
-/log info "GFW domain list updated with 5886 domains"
+/log info "GFW domain list updated with 5890 domains"
