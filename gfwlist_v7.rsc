@@ -111,6 +111,7 @@
     "7cow.com";
     "8-d.com";
     "85cc.us";
+    "860775.xyz";
     "881903.com";
     "888.com";
     "888poker.com";
@@ -5913,4 +5914,4 @@
 /ip dns cache flush
 
 # Log completion
-/log info "GFW domain list updated with 5897 domains"
+/log info "GFW domain list updated with 5898 domains"
