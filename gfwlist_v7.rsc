@@ -1058,6 +1058,7 @@
     "cloud.mail.ru";
     "cloudflare-dns.com";
     "cloudflare-ipfs.com";
+    "cloudflare.com";
     "cloudfunctions.net";
     "club1069.com";
     "clubhouseapi.com";
@@ -5918,4 +5919,4 @@
 /ip dns cache flush
 
 # Log completion
-/log info "GFW domain list updated with 5902 domains"
+/log info "GFW domain list updated with 5903 domains"
