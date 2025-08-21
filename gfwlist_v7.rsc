@@ -2762,6 +2762,7 @@
     "itemdb.com";
     "itemfix.com";
     "ithelp.ithome.com.tw";
+    "itiger.com";
     "itsaol.com";
     "itshidden.com";
     "itsky.it";
@@ -5891,6 +5892,7 @@
     "zoogvpn.com";
     "zoominfo.com";
     "zooqle.com";
+    "zoot.plus";
     "zootool.com";
     "zoozle.net";
     "zophar.net";
@@ -5920,4 +5922,4 @@
 /ip dns cache flush
 
 # Log completion
-/log info "GFW domain list updated with 5904 domains"
+/log info "GFW domain list updated with 5906 domains"
