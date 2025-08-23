@@ -897,6 +897,7 @@ centralnation.com
 centurys.net
 certificate-transparency.org
 certificate.revocationcheck.com
+cf.mb6.top
 cfhks.org.hk
 cfos.de
 cfr.org
@@ -1859,6 +1860,8 @@ ftvnews.com.tw
 ftx.com
 fucd.com
 fuchsia.dev
+fuckccp.com
+fuckccp.xyz
 fuckgfw.org
 fulione.com
 fullerconsideration.com

@@ -1,4 +1,5 @@
 860775.xyz
+cf.mb6.top
 chat.openai.com
 claw.cloud
 cloudflare.com
@@ -12,4 +13,3 @@ panku8.com
 xiaoya.pro
 zhuifan.link
 zoot.plus
-cf.mb6.top

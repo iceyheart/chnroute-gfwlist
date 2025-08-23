@@ -904,6 +904,7 @@
     "centurys.net";
     "certificate-transparency.org";
     "certificate.revocationcheck.com";
+    "cf.mb6.top";
     "cfhks.org.hk";
     "cfos.de";
     "cfr.org";
@@ -1866,6 +1867,8 @@
     "ftx.com";
     "fucd.com";
     "fuchsia.dev";
+    "fuckccp.com";
+    "fuckccp.xyz";
     "fuckgfw.org";
     "fulione.com";
     "fullerconsideration.com";
@@ -5923,4 +5926,4 @@
 /ip dns cache flush
 
 # Log completion
-/log info "GFW domain list updated with 5907 domains"
+/log info "GFW domain list updated with 5910 domains"
