@@ -433,6 +433,7 @@
     "bailandaily.com";
     "baixing.me";
     "baizhi.org";
+    "bamgrid.com";
     "banana-vpn.com";
     "band.us";
     "bandcamp.com";
@@ -1310,6 +1311,7 @@
     "dipity.com";
     "directcreative.com";
     "discoins.com";
+    "discomax.com";
     "disconnect.me";
     "discord.com";
     "discord.gg";
@@ -3192,6 +3194,7 @@
     "matthewdgreen.wordpress.com";
     "mattwilcox.net";
     "maven.neoforged.net";
+    "max.com";
     "maxing.jp";
     "mayimayi.com";
     "mcadforums.com";
@@ -5928,4 +5931,4 @@
 /ip dns cache flush
 
 # Log completion
-/log info "GFW domain list updated with 5912 domains"
+/log info "GFW domain list updated with 5915 domains"
