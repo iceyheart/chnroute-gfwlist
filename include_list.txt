@@ -7,6 +7,7 @@ cloudflare.com
 codeium.com
 codeiumdata.com
 discomax.com
+disney-plus.net
 docker.io
 free.hr
 loader.to
@@ -16,4 +17,3 @@ panku8.com
 xiaoya.pro
 zhuifan.link
 zoot.plus
-disney-plus.net

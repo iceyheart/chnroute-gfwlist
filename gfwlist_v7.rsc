@@ -1322,6 +1322,7 @@
     "dish.com";
     "disk.yandex.com";
     "disk.yandex.ru";
+    "disney-plus.net";
     "disneyplus.com";
     "disp.cc";
     "disqus.com";
@@ -5931,4 +5932,4 @@
 /ip dns cache flush
 
 # Log completion
-/log info "GFW domain list updated with 5915 domains"
+/log info "GFW domain list updated with 5916 domains"
