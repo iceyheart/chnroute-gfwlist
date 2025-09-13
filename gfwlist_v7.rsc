@@ -3205,6 +3205,7 @@
     "mcaf.ee";
     "mcfog.com";
     "mcreasite.com";
+    "mcusercontent.com";
     "md-t.org";
     "me.me";
     "me.ns.ci";
@@ -4402,6 +4403,7 @@
     "simpleproductivityblog.com";
     "simpleswap.io";
     "simplex.chat";
+    "sina.com.hk";
     "sinchew.com.my";
     "singaporepools.com.sg";
     "singfortibet.com";
@@ -4702,6 +4704,7 @@
     "taiwanus.net";
     "taiwanyes.ning.com";
     "talk853.com";
+    "talkatone.com";
     "talkboxapp.com";
     "talkcc.com";
     "talkonly.net";
@@ -5936,4 +5939,4 @@
 /ip dns cache flush
 
 # Log completion
-/log info "GFW domain list updated with 5920 domains"
+/log info "GFW domain list updated with 5923 domains"
