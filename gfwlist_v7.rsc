@@ -222,6 +222,7 @@
     "alhayat.com";
     "alicejapan.co.jp";
     "aliengu.com";
+    "alistgo.com";
     "alive.bar";
     "aljazeera.com";
     "alkasir.com";
@@ -5939,4 +5940,4 @@
 /ip dns cache flush
 
 # Log completion
-/log info "GFW domain list updated with 5923 domains"
+/log info "GFW domain list updated with 5924 domains"
