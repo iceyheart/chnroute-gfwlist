@@ -1923,6 +1923,7 @@
     "gardennetworks.com";
     "gardennetworks.org";
     "gartlive.com";
+    "garudalinux.org";
     "gate.io";
     "gatecoin.com";
     "gather.com";
@@ -1998,6 +1999,7 @@
     "githubassets.com";
     "githubcopilot.com";
     "githubusercontent.com";
+    "gitlab.com";
     "gitlab.net";
     "gizlen.net";
     "gjczz.com";
@@ -3581,6 +3583,7 @@
     "ninjacloak.com";
     "ninjaproxy.ninja";
     "nintendium.com";
+    "nirsoft.net";
     "nitter.cc";
     "nitter.net";
     "niu.moe";
@@ -5419,6 +5422,7 @@
     "vpnworldwide.com";
     "vporn.com";
     "vpser.net";
+    "vpsxb.net";
     "vraiesagesse.net";
     "vrchat.com";
     "vrmtr.com";
@@ -5940,4 +5944,4 @@
 /ip dns cache flush
 
 # Log completion
-/log info "GFW domain list updated with 5924 domains"
+/log info "GFW domain list updated with 5928 domains"
