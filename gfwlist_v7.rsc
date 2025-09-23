@@ -313,6 +313,7 @@
     "api-secure.recaptcha.net";
     "api-verify.recaptcha.net";
     "api.ai";
+    "api.palworldgame.com";
     "api.pureapk.com";
     "api.recaptcha.net";
     "api.steampowered.com";
@@ -3684,6 +3685,7 @@
     "ocreampies.com";
     "ocry.com";
     "october-review.org";
+    "octocaptcha.com";
     "oculus.com";
     "oculuscdn.com";
     "odysee.com";
@@ -5943,4 +5945,4 @@
 /ip dns cache flush
 
 # Log completion
-/log info "GFW domain list updated with 5927 domains"
+/log info "GFW domain list updated with 5929 domains"
