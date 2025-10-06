@@ -5342,6 +5342,7 @@
     "vilanet.me";
     "vilavpn.com";
     "vimeo.com";
+    "vimeocdn.com";
     "vimperator.org";
     "vincnd.com";
     "vine.co";
@@ -5951,4 +5952,4 @@
 /ip dns cache flush
 
 # Log completion
-/log info "GFW domain list updated with 5935 domains"
+/log info "GFW domain list updated with 5936 domains"
