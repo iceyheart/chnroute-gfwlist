@@ -4500,6 +4500,7 @@
     "solarsystem.nasa.gov";
     "solidaritetibet.org";
     "solidfiles.com";
+    "solscan.io";
     "solv.finance";
     "somee.com";
     "songjianjun.com";
@@ -5952,4 +5953,4 @@
 /ip dns cache flush
 
 # Log completion
-/log info "GFW domain list updated with 5936 domains"
+/log info "GFW domain list updated with 5937 domains"
