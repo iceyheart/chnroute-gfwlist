@@ -1364,6 +1364,7 @@
     "doc.new";
     "docker.com";
     "docker.io";
+    "dockerstatus.com";
     "docs.deno.com";
     "docs.new";
     "doctorvoice.org";
@@ -5959,4 +5960,4 @@
 /ip dns cache flush
 
 # Log completion
-/log info "GFW domain list updated with 5943 domains"
+/log info "GFW domain list updated with 5944 domains"
