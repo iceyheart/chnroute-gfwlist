@@ -4970,6 +4970,7 @@
     "tl.gd";
     "tma.co.jp";
     "tmagazine.com";
+    "tmdb.org";
     "tmi.me";
     "tmpp.org";
     "tn1.shemalez.com";
@@ -5960,4 +5961,4 @@
 /ip dns cache flush
 
 # Log completion
-/log info "GFW domain list updated with 5944 domains"
+/log info "GFW domain list updated with 5945 domains"
