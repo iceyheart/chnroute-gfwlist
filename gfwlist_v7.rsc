@@ -4818,6 +4818,7 @@
     "thehindu.com";
     "thehun.net";
     "theinitium.com";
+    "themoviedb.org";
     "thenewslens.com";
     "thepiratebay.org";
     "theporndude.com";
@@ -5961,4 +5962,4 @@
 /ip dns cache flush
 
 # Log completion
-/log info "GFW domain list updated with 5945 domains"
+/log info "GFW domain list updated with 5946 domains"
