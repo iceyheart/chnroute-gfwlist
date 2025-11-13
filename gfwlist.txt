@@ -326,6 +326,7 @@ app.smartmailcloud.com
 appadvice.com
 appbrain.com
 appdownloader.net
+apple-relay.apple.com
 appledaily.com
 appledaily.com.tw
 apps.evozi.com
@@ -2323,6 +2324,7 @@ ground.news
 gs-discuss.com
 gsearch.media
 gsp.target.com
+gspe1-ssl.ls.apple.com
 gstatic.com
 gtricks.com
 gtv.org

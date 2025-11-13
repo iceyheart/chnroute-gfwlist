@@ -1,5 +1,6 @@
 860775.xyz
 alistgo.com
+apple-relay.apple.com
 bamgrid.com
 cf.mb6.top
 chat.openai.com
@@ -11,6 +12,7 @@ discomax.com
 disney-plus.net
 docker.io
 free.hr
+gspe1-ssl.ls.apple.com
 loader.to
 max.com
 notion.site
@@ -20,5 +22,3 @@ tmdb.org
 xiaoya.pro
 zhuifan.link
 zoot.plus
-gspe1-ssl.ls.apple.com
-apple-relay.apple.com

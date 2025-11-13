@@ -333,6 +333,7 @@
     "appadvice.com";
     "appbrain.com";
     "appdownloader.net";
+    "apple-relay.apple.com";
     "appledaily.com";
     "appledaily.com.tw";
     "apps.evozi.com";
@@ -2330,6 +2331,7 @@
     "gs-discuss.com";
     "gsearch.media";
     "gsp.target.com";
+    "gspe1-ssl.ls.apple.com";
     "gstatic.com";
     "gtricks.com";
     "gtv.org";
@@ -5963,4 +5965,4 @@
 /ip dns cache flush
 
 # Log completion
-/log info "GFW domain list updated with 5947 domains"
+/log info "GFW domain list updated with 5949 domains"
