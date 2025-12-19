@@ -3859,6 +3859,7 @@
     "parler.com";
     "parse.com";
     "parsevideo.com";
+    "partnerstack.xyz";
     "partycasino.com";
     "partypoker.com";
     "passion.com";
@@ -6004,4 +6005,4 @@
 /ip dns cache flush
 
 # Log completion
-/log info "GFW domain list updated with 5988 domains"
+/log info "GFW domain list updated with 5989 domains"
