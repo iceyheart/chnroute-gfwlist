@@ -3940,6 +3940,23 @@
     "pinimg.com";
     "pinkrod.com";
     "pinoy-n.com";
+    "pinterest.at";
+    "pinterest.ca";
+    "pinterest.cl";
+    "pinterest.co.uk";
+    "pinterest.com";
+    "pinterest.com.au";
+    "pinterest.com.mx";
+    "pinterest.de";
+    "pinterest.es";
+    "pinterest.fr";
+    "pinterest.ie";
+    "pinterest.it";
+    "pinterest.jp";
+    "pinterest.nz";
+    "pinterest.ph";
+    "pinterest.pt";
+    "pinterest.se";
     "pioneer-worker.forums-free.com";
     "pipii.tv";
     "piraattilahti.org";
@@ -6011,4 +6028,4 @@
 /ip dns cache flush
 
 # Log completion
-/log info "GFW domain list updated with 5995 domains"
+/log info "GFW domain list updated with 6012 domains"
