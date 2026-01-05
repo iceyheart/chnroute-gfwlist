@@ -22,3 +22,5 @@ tmdb.org
 xiaoya.pro
 zhuifan.link
 zoot.plus
+hysteria.network
+litevm.net
