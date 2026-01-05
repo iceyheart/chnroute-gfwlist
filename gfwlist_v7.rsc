@@ -200,6 +200,7 @@
     "agro.hk";
     "ai.binwang.me";
     "ai.dev";
+    "ai.studio";
     "aiosearch.com";
     "aiph.net";
     "airasia.com";
@@ -6034,4 +6035,4 @@
 /ip dns cache flush
 
 # Log completion
-/log info "GFW domain list updated with 6018 domains"
+/log info "GFW domain list updated with 6019 domains"
