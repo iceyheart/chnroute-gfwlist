@@ -13,6 +13,8 @@ disney-plus.net
 docker.io
 free.hr
 gspe1-ssl.ls.apple.com
+hysteria.network
+litevm.net
 loader.to
 max.com
 notion.site
@@ -22,5 +24,3 @@ tmdb.org
 xiaoya.pro
 zhuifan.link
 zoot.plus
-hysteria.network
-litevm.net

@@ -1276,6 +1276,7 @@
     "dawangidc.com";
     "daxa.cn";
     "daylife.com";
+    "dazn.com";
     "db.tt";
     "dbgjd.com";
     "dcard.tw";
@@ -2626,6 +2627,7 @@
     "hyperbeam.com";
     "hyperrate.com";
     "hypothes.is";
+    "hysteria.network";
     "i-cable.com";
     "i-part.com.tw";
     "i-scmp.com";
@@ -3113,6 +3115,7 @@
     "listorious.com";
     "lists.w3.org";
     "litenews.hk";
+    "litevm.net";
     "liu-xiaobo.org";
     "liuhanyu.com";
     "liuxiaobo.net";
@@ -3778,6 +3781,8 @@
     "onthehunt.com";
     "ontrac.com";
     "oojj.de";
+    "ooni.io";
+    "ooni.org";
     "open.com.hk";
     "open.firstory.me";
     "openai.com";
@@ -5768,6 +5773,7 @@
     "xbookcn.com";
     "xbtce.com";
     "xcafe.in";
+    "xcancel.com";
     "xcity.jp";
     "xcritic.com";
     "xerotica.com";
@@ -6028,4 +6034,4 @@
 /ip dns cache flush
 
 # Log completion
-/log info "GFW domain list updated with 6012 domains"
+/log info "GFW domain list updated with 6018 domains"
