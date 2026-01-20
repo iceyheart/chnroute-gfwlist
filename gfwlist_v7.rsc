@@ -5584,6 +5584,7 @@
     "wefong.com";
     "wego.here.com";
     "weiboleak.com";
+    "weights.com";
     "weihuo.org";
     "weijingsheng.org";
     "weiming.info";
@@ -5906,6 +5907,7 @@
     "youdontcare.com";
     "youjizz.com";
     "youmaker.com";
+    "youmind.com";
     "youngpornvideos.com";
     "youngspiration.hk";
     "youpai.org";
@@ -6040,4 +6042,4 @@
 /ip dns cache flush
 
 # Log completion
-/log info "GFW domain list updated with 6024 domains"
+/log info "GFW domain list updated with 6026 domains"
