@@ -1861,6 +1861,7 @@
     "freess.org";
     "freessh.us";
     "freetcp.com";
+    "freeterabox.com";
     "freetibet.net";
     "freetibet.org";
     "freetibetanheroes.org";
@@ -6043,4 +6044,4 @@
 /ip dns cache flush
 
 # Log completion
-/log info "GFW domain list updated with 6027 domains"
+/log info "GFW domain list updated with 6028 domains"
