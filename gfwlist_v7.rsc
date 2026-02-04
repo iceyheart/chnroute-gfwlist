@@ -3852,6 +3852,7 @@
     "padmanet.com";
     "page.link";
     "page2rss.com";
+    "pages.dev";
     "paimon.moe";
     "palacemoon.com";
     "paljorpublications.com";
@@ -4392,6 +4393,7 @@
     "seesmic.com";
     "seevpn.com";
     "seezone.net";
+    "sef.org.tw";
     "sehuatang.net";
     "sehuatang.org";
     "sejie.com";
@@ -5739,6 +5741,7 @@
     "www.eastturkistan.net";
     "www.gmiddle.com";
     "www.gmiddle.net";
+    "www.hoyolab.com";
     "www.hustlercash.com";
     "www.idlcoyote.com";
     "www.imdb.com";
@@ -6050,4 +6053,4 @@
 /ip dns cache flush
 
 # Log completion
-/log info "GFW domain list updated with 6034 domains"
+/log info "GFW domain list updated with 6037 domains"
