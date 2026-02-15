@@ -1436,6 +1436,7 @@
     "glype.com";
     "gmail.com";
     "gmgard.com";
+    "gmgn.ai";
     "gmodules.com";
     "gmp4.com";
     "gnci.org.hk";
@@ -3233,6 +3234,7 @@
     "sowers.org.hk";
     "soylentnews.org";
     "spaces.hightail.com";
+    "spacex.com";
     "spankbang.com";
     "sparkpool.com";
     "spatial.io";
@@ -3871,6 +3873,7 @@
     "waffle1999.com";
     "wainao.me";
     "walletconnect.com";
+    "walletconnect.org";
     "wallmama.com";
     "wallpapercasa.com";
     "wallsttv.com";
@@ -4252,4 +4255,4 @@
 /ip dns cache flush
 
 # Log completion
-/log info "GFW domain list updated with 4236 domains"
+/log info "GFW domain list updated with 4239 domains"
