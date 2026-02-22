@@ -3535,6 +3535,7 @@
     "topsy.com";
     "toptip.ca";
     "toptoon.net";
+    "tor.eff.org";
     "torguard.net";
     "torlock.com";
     "torproject.org";
@@ -3689,6 +3690,7 @@
     "underwoodammo.com";
     "unholyknight.com";
     "unirule.cloud";
+    "uniswap.org";
     "unknownspace.org";
     "unmineable.com";
     "unseen.is";
@@ -4228,4 +4230,4 @@
 /ip dns cache flush
 
 # Log completion
-/log info "GFW domain list updated with 4212 domains"
+/log info "GFW domain list updated with 4214 domains"
