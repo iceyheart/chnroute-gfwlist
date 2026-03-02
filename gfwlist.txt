@@ -763,6 +763,7 @@ cixiaoya.club
 ck101.com
 classicalguitarblog.net
 claude.ai
+claude.com
 claw.cloud
 cldr.unicode.org
 clearsurance.com
@@ -2278,6 +2279,7 @@ mangafox.com
 mangafox.me
 mangmang.run
 manta.com
+manus.im
 manyvoices.news
 marc.info
 martau.com
@@ -4000,7 +4002,6 @@ www.gmiddle.net
 www.hoyolab.com
 www.hustlercash.com
 www.idlcoyote.com
-www.imdb.com
 www.kindleren.com
 www.lorenzetti.com.br
 www.m-sport.co.uk
