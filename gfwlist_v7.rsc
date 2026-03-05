@@ -1022,6 +1022,7 @@
     "dougscripts.com";
     "doujincafe.com";
     "download.aircrack-ng.org";
+    "download.dappcdn.com";
     "dpool.top";
     "dpp.org.tw";
     "dpr.info";
@@ -4235,4 +4236,4 @@
 /ip dns cache flush
 
 # Log completion
-/log info "GFW domain list updated with 4219 domains"
+/log info "GFW domain list updated with 4220 domains"
