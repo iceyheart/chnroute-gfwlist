@@ -14,6 +14,7 @@ docker.io
 free.hr
 gspe1-ssl.ls.apple.com
 hysteria.network
+incudal.com
 litevm.net
 loader.to
 max.com
@@ -24,4 +25,3 @@ tmdb.org
 xiaoya.pro
 zhuifan.link
 zoot.plus
-incudal.com

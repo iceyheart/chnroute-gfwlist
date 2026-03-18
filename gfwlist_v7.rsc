@@ -83,6 +83,7 @@
     "a-normal-day.com";
     "a248.e.akamai.net";
     "aamacau.com";
+    "aave.com";
     "abc.net.au";
     "abc.xyz";
     "abebooks.co.uk";
@@ -1972,6 +1973,7 @@
     "improd.works";
     "incloak.com";
     "incredibox.fr";
+    "incudal.com";
     "independent.co.uk";
     "india.com";
     "indiablooms.com";
@@ -4241,4 +4243,4 @@
 /ip dns cache flush
 
 # Log completion
-/log info "GFW domain list updated with 4225 domains"
+/log info "GFW domain list updated with 4227 domains"
