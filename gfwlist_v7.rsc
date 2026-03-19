@@ -2632,8 +2632,10 @@
     "ohmyrss.com";
     "ok.ru";
     "okayfreedom.com";
+    "okcoin.com";
     "okex.com";
     "okk.tw";
+    "oklink.com";
     "okpool.me";
     "okx.com";
     "old.honeynet.org";
@@ -4243,4 +4245,4 @@
 /ip dns cache flush
 
 # Log completion
-/log info "GFW domain list updated with 4227 domains"
+/log info "GFW domain list updated with 4229 domains"
