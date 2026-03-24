@@ -4079,6 +4079,7 @@
     "xm.com";
     "xml-training-guide.com";
     "xn--11xs86f.icu";
+    "xn--1jqvh729avzfcy2d8ummib.com";
     "xn--4gq171p.com";
     "xn--9iqy04a7fi01l.com";
     "xn--9pr62r24a.com";
@@ -4247,4 +4248,4 @@
 /ip dns cache flush
 
 # Log completion
-/log info "GFW domain list updated with 4231 domains"
+/log info "GFW domain list updated with 4232 domains"
