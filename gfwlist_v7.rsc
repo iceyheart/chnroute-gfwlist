@@ -246,6 +246,7 @@
     "appspot.com";
     "appsto.re";
     "aptoide.com";
+    "archive-it.org";
     "archive.fo";
     "archive.is";
     "archive.li";
@@ -997,6 +998,7 @@
     "dmhy.org";
     "dmm.co.jp";
     "dns.cloudflare.com";
+    "dns.sb";
     "dns2go.com";
     "dnscrypt.org";
     "dnssec.net";
@@ -1007,6 +1009,7 @@
     "dockerstatus.com";
     "docs.new";
     "documentingreality.com";
+    "doh.sb";
     "dolc.de";
     "dolf.org.hk";
     "dongtaiwang.com";
@@ -1014,6 +1017,7 @@
     "doom9.org";
     "doosho.com";
     "doourbest.org";
+    "dot.sb";
     "dotplane.com";
     "dotsub.com";
     "dotvpn.com";
@@ -4249,4 +4253,4 @@
 /ip dns cache flush
 
 # Log completion
-/log info "GFW domain list updated with 4233 domains"
+/log info "GFW domain list updated with 4237 domains"
