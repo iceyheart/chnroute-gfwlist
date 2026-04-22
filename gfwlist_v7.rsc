@@ -233,6 +233,7 @@
     "apkpure.net";
     "app.box.com";
     "app.cloudcone.com";
+    "app.element.io";
     "app.smartmailcloud.com";
     "appadvice.com";
     "appbrain.com";
@@ -274,6 +275,7 @@
     "asianfanfics.com";
     "asiansexdiary.com";
     "asiaone.com";
+    "asiasociety.org";
     "ask.com";
     "askstudent.com";
     "askynz.net";
@@ -367,6 +369,7 @@
     "beijing2022.art";
     "beijingspring.com";
     "bell.wiki";
+    "bellingcat.com";
     "berlinerbericht.de";
     "berlintwitterwall.com";
     "bestvpn.com";
@@ -756,7 +759,6 @@
     "chromecast.com";
     "chromeexperiments.com";
     "chromestatus.com";
-    "chromium.org";
     "ci-en.jp";
     "cia.gov";
     "cici.com";
@@ -2037,6 +2039,7 @@
     "ismaelan.com";
     "ismprofessional.net";
     "israbox.com";
+    "issues.chromium.org";
     "issuu.com";
     "isupportuyghurs.org";
     "italiatibet.org";
@@ -2178,6 +2181,7 @@
     "lamayeshe.com";
     "lamnia.co.uk";
     "landofhope.tv";
+    "lantern.io";
     "laogai.org";
     "laogairesearch.org";
     "laqingdan.net";
@@ -2964,6 +2968,7 @@
     "raw.githack.com";
     "rawgit.com";
     "rawgithub.com";
+    "rawstory.com";
     "rcam.target.com";
     "rcinet.ca";
     "rd.com";
@@ -2975,6 +2980,7 @@
     "realcourage.org";
     "realitykings.com";
     "reason.com";
+    "recordedfuture.com";
     "recoveryversion.com.tw";
     "red-lang.org";
     "redbubble.com";
@@ -3010,6 +3016,7 @@
     "rixcloud.us";
     "rlwlw.com";
     "rmbl.ws";
+    "roblox.com";
     "robustnessiskey.com";
     "rocket-inc.net";
     "rocket.chat";
@@ -3221,7 +3228,6 @@
     "southnews.com.tw";
     "southpark.cc.com";
     "sowers.org.hk";
-    "soylentnews.org";
     "spaces.hightail.com";
     "spacex.com";
     "spankbang.com";
@@ -3434,6 +3440,7 @@
     "thewgo.org";
     "thewirechina.com";
     "theync.com";
+    "thinkchina.sg";
     "thinkgeek.com";
     "thinkingtaiwan.com";
     "thinkwithgoogle.com";
@@ -4239,4 +4246,4 @@
 /ip dns cache flush
 
 # Log completion
-/log info "GFW domain list updated with 4223 domains"
+/log info "GFW domain list updated with 4230 domains"
