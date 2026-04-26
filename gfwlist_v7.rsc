@@ -53,6 +53,7 @@
     "611study.icu";
     "63i.com";
     "666pool.cn";
+    "69shuba.com";
     "69shuba.cx";
     "6do.news";
     "6do.world";
@@ -4247,4 +4248,4 @@
 /ip dns cache flush
 
 # Log completion
-/log info "GFW domain list updated with 4231 domains"
+/log info "GFW domain list updated with 4232 domains"
