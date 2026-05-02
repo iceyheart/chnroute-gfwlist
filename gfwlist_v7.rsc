@@ -3197,6 +3197,7 @@
     "sockslist.net";
     "socrec.org";
     "softether-download.com";
+    "softether.co.jp";
     "softether.org";
     "softfamous.com";
     "softwarebychuck.com";
@@ -4249,4 +4250,4 @@
 /ip dns cache flush
 
 # Log completion
-/log info "GFW domain list updated with 4233 domains"
+/log info "GFW domain list updated with 4234 domains"
