@@ -937,6 +937,7 @@
     "darrenliuwei.com";
     "dashlane.com";
     "data-vocabulary.org";
+    "data18.com";
     "daum.net";
     "david-kilgour.com";
     "dawangidc.com";
@@ -1050,6 +1051,7 @@
     "dropboxusercontent.com";
     "dscn.info";
     "dstk.dk";
+    "dt18.com";
     "dtiblog.com";
     "dtic.mil";
     "dubox.com";
@@ -4275,4 +4277,4 @@
 /ip dns cache flush
 
 # Log completion
-/log info "GFW domain list updated with 4259 domains"
+/log info "GFW domain list updated with 4261 domains"
