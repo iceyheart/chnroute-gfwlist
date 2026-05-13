@@ -754,6 +754,7 @@
     "chingcheong.com";
     "chinman.net";
     "chobit.cc";
+    "chonglangtv.org";
     "chrdnet.com";
     "christianfreedom.org";
     "christianstudy.com";
@@ -4277,4 +4278,4 @@
 /ip dns cache flush
 
 # Log completion
-/log info "GFW domain list updated with 4261 domains"
+/log info "GFW domain list updated with 4262 domains"
