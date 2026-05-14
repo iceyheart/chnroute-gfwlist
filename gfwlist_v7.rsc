@@ -4257,6 +4257,7 @@
     "zootool.com";
     "zophar.net";
     "zorrovpn.com";
+    "zouter.io";
     "zozotown.com";
     "zpn.im";
     "zspeeder.me";
@@ -4278,4 +4279,4 @@
 /ip dns cache flush
 
 # Log completion
-/log info "GFW domain list updated with 4262 domains"
+/log info "GFW domain list updated with 4263 domains"
