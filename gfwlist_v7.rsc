@@ -32,6 +32,7 @@
     "2047.one";
     "2049bbs.xyz";
     "233abc.com";
+    "24hbook.com";
     "24hrs.ca";
     "32red.com";
     "36rain.com";
@@ -2327,6 +2328,7 @@
     "martsangkagyuofficial.org";
     "marxist.net";
     "marxists.org";
+    "mas.to";
     "mash.to";
     "mastodon.cloud";
     "mastodon.host";
@@ -2535,6 +2537,7 @@
     "ndi.org";
     "nekoslovakia.net";
     "neo-miracle.com";
+    "neodb.social ";
     "neowin.net";
     "nephobox.com";
     "netalert.me";
@@ -4287,4 +4290,4 @@
 /ip dns cache flush
 
 # Log completion
-/log info "GFW domain list updated with 4271 domains"
+/log info "GFW domain list updated with 4274 domains"
