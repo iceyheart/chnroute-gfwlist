@@ -1040,6 +1040,7 @@
     "douchi.space";
     "dougscripts.com";
     "doujincafe.com";
+    "dowjones.io";
     "download.dappcdn.com";
     "dpool.top";
     "dpp.org.tw";
@@ -4291,4 +4292,4 @@
 /ip dns cache flush
 
 # Log completion
-/log info "GFW domain list updated with 4275 domains"
+/log info "GFW domain list updated with 4276 domains"
