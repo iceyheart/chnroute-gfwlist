@@ -14,6 +14,7 @@ discomax.com
 disney-plus.net
 docker.io
 free.hr
+fuckip.me
 gspe1-ssl.ls.apple.com
 hysteria.network
 incudal.com
@@ -28,4 +29,3 @@ xiaoya.pro
 zhuifan.link
 zoot.plus
 zouter.io
-fuckip.me

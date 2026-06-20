@@ -1366,6 +1366,7 @@
     "fuchsia.dev";
     "fuckccp.com";
     "fuckccp.xyz";
+    "fuckip.me";
     "fulione.com";
     "fullerconsideration.com";
     "fullservicegame.com";
@@ -4386,4 +4387,4 @@
 /ip dns cache flush
 
 # Log completion
-/log info "GFW domain list updated with 4370 domains"
+/log info "GFW domain list updated with 4371 domains"
