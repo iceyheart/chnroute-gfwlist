@@ -15,6 +15,7 @@ disney-plus.net
 docker.io
 free.hr
 fuckip.me
+gimy115.top
 gspe1-ssl.ls.apple.com
 hysteria.network
 incudal.com
@@ -30,4 +31,3 @@ xiaoya.pro
 zhuifan.link
 zoot.plus
 zouter.io
-gimy115.top

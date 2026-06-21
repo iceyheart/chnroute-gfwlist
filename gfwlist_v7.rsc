@@ -1481,6 +1481,7 @@
     "ghut.org";
     "giantessnight.com";
     "giga-web.jp";
+    "gimy115.top";
     "girlbanker.com";
     "git.io";
     "gitbook.io";
@@ -4388,4 +4389,4 @@
 /ip dns cache flush
 
 # Log completion
-/log info "GFW domain list updated with 4372 domains"
+/log info "GFW domain list updated with 4373 domains"
