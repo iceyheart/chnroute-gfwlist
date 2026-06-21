@@ -4049,6 +4049,7 @@
     "westca.com";
     "westernwolves.com";
     "westpoint.edu";
+    "wetest.vip";
     "wezone.net";
     "wforum.com";
     "whatblocked.com";
@@ -4387,4 +4388,4 @@
 /ip dns cache flush
 
 # Log completion
-/log info "GFW domain list updated with 4371 domains"
+/log info "GFW domain list updated with 4372 domains"

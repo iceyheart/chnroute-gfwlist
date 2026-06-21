@@ -25,8 +25,8 @@ notion.site
 panku8.com
 themoviedb.org
 tmdb.org
+wetest.vip
 xiaoya.pro
 zhuifan.link
 zoot.plus
 zouter.io
-wetest.vip
