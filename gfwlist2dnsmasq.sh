@@ -177,7 +177,7 @@ get_args() {
     # Default values
     OUT_TYPE='DNSMASQ_RULES'
     DNS_IP=''
-    DNS_PORT=''
+    DNS_PORT='53'
     IPSET_NAME=''
     OUT_FILE=''
     CURL_EXTARG=''
