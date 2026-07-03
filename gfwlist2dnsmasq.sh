@@ -344,7 +344,7 @@ get_args() {
 # Process GFWList and generate output files
 process() {
     # Set global variables
-    BASE_URL='gfwlist.txt'
+    BASE_URL='https://github.com/gfwlist/gfwlist/raw/master/gfwlist.txt'
     TMP_DIR=$(mktemp -d /tmp/gfwlist2dnsmasq.XXXXXX)
     BASE64_FILE="$TMP_DIR/base64.txt"
     GFWLIST_FILE="$TMP_DIR/gfwlist.txt"
