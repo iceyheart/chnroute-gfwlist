@@ -166,6 +166,40 @@ EOL
     return 0
 }
 
+create_dnsmasq_conf() {
+    local input_file="$GFWLIST"
+    local output_file="$GFWLIST_CONF"
+    local dns_server="198.18.0.2" # 你的 TUN 模式 Fake-IP DNS
+    
+    if [[ ! -f "$input_file" ]]; then
+        log_error "Input file $input_file not found"
+        return 1
+    fi
+    
+    log_info "Creating dnsmasq config $output_file natively..."
+    
+    # 同样利用主脚本的 TMP_DIR 保证安全
+    local tmp_file="${TMP_DIR}/$(basename "$output_file")"
+    
+    # 写入头部注释
+    cat <<EOL >"$tmp_file"
+# dnsmasq rules for TUN Fake-IP mode
+# Total domains: $(wc -l < "$input_file")
+# Last Updated: $(date "+%Y-%m-%d %H:%M:%S")
+
+EOL
+    
+    # 核心：使用极其高效的 awk，直接在本地完成格式转换
+    # 输入: google.com -> 输出: server=/google.com/198.18.0.2
+    awk -v dns="$dns_server" '{print "server=/" $1 "/" dns}' "$input_file" >> "$tmp_file"
+    
+    # 原子性移动文件到最终目录
+    mv "$tmp_file" "$output_file"
+    
+    log_success "Created $output_file successfully"
+    return 0
+}
+
 # Check if there are any changes in the git repository
 check_git_status() {
     log_info "Checking git status..."
@@ -474,15 +508,9 @@ main() {
             log_error "Failed to create RouterOS scripts"
             exit_code=1
         fi
-        # 4.2 新增：再次调用 gfwlist2dnsmasq.sh 生成真正的 dnsmasq 规则文件
-        log_info "Generating dnsmasq configuration using gfwlist2dnsmasq.sh..."
-        if bash "$GFWLIST2DNSMASQ_SH" \
-            --extra-domain-file "$GFWLIST" \
-            --output "$GFWLIST_CONF" >> "${TMP_DIR}/dnsmasq_gen.log" 2>&1; then
-            
-            log_success "Successfully generated dnsmasq config: $GFWLIST_CONF"
-        else
-            log_error "Failed to generate dnsmasq configuration. Check log."
+        # 4.2 生成 dnsmasq 配置 (同样使用原生逻辑，不再二次调用外部脚本)
+        if ! create_dnsmasq_conf; then
+            log_error "Failed to create dnsmasq configuration"
             exit_code=1
         fi
     fi
