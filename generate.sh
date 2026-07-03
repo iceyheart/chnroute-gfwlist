@@ -18,7 +18,7 @@ readonly DNS_SERVER="\$dnsserver"
 readonly GFWLIST_V7_RSC="gfwlist_v7.rsc"
 readonly CN_RSC="CN.rsc"
 readonly CN_IN_MEM_RSC="CN_mem.rsc"
-readonly GFWLIST_CONF="03-gfwlist.conf"
+readonly GFWLIST_CONF="gfwlist.conf"
 
 # Source URLs
 readonly CN_URL="http://www.iwik.org/ipcountry/mikrotik/CN"
@@ -465,11 +465,30 @@ main() {
         exit_code=1
     fi
     
-    # Step 4: Create RouterOS scripts
+    # Step 4: Create RouterOS scripts AND dnsmasq configuration
     if [[ $exit_code -eq 0 ]]; then
         log_info "Step 4/5: Creating RouterOS scripts"
+        
+        # 4.1 生成 RouterOS 脚本
         if ! create_gfwlist_rsc "v7" "$GFWLIST_V7_RSC"; then
             log_error "Failed to create RouterOS scripts"
+            exit_code=1
+        fi
+        # 4.2 新增：再次调用 gfwlist2dnsmasq.sh 生成真正的 dnsmasq 规则文件
+        log_info "Generating dnsmasq configuration using gfwlist2dnsmasq.sh..."
+        
+        # 💡 [你可以根据需要修改下面的参数]
+        # -d: DNS 服务器 IP 
+        # -p: DNS 端口
+        # -s: 注入的 ipset/nftables 集合名称
+        if bash "$GFWLIST2DNSMASQ_SH" \
+            --dns "198.18.0.2" \
+            --extra-domain-file "$GFWLIST" \
+            --output "$GFWLIST_CONF" >> "${TMP_DIR}/dnsmasq_gen.log" 2>&1; then
+            
+            log_success "Successfully generated dnsmasq config: $GFWLIST_CONF"
+        else
+            log_error "Failed to generate dnsmasq configuration. Check log."
             exit_code=1
         fi
     fi
