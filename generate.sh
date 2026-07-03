@@ -476,13 +476,7 @@ main() {
         fi
         # 4.2 新增：再次调用 gfwlist2dnsmasq.sh 生成真正的 dnsmasq 规则文件
         log_info "Generating dnsmasq configuration using gfwlist2dnsmasq.sh..."
-        
-        # 💡 [你可以根据需要修改下面的参数]
-        # -d: DNS 服务器 IP 
-        # -p: DNS 端口
-        # -s: 注入的 ipset/nftables 集合名称
         if bash "$GFWLIST2DNSMASQ_SH" \
-            --dns "198.18.0.2" \
             --extra-domain-file "$GFWLIST" \
             --output "$GFWLIST_CONF" >> "${TMP_DIR}/dnsmasq_gen.log" 2>&1; then
             
