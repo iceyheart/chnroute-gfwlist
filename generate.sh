@@ -185,7 +185,6 @@ create_dnsmasq_conf() {
     cat <<EOL >"$tmp_file"
 # dnsmasq rules for TUN Fake-IP mode
 # Total domains: $(wc -l < "$input_file")
-# Last Updated: $(date "+%Y-%m-%d %H:%M:%S")
 
 EOL
     
