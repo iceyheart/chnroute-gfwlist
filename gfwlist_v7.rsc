@@ -20,6 +20,7 @@
     "173ng.com";
     "18board.com";
     "18comic.org";
+    "18comic.vip";
     "18mh.net";
     "1984bbs.com";
     "1991way.com";
@@ -4409,4 +4410,4 @@
 /ip dns cache flush
 
 # Log completion
-/log info "GFW domain list updated with 4393 domains"
+/log info "GFW domain list updated with 4394 domains"
