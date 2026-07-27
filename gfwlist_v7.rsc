@@ -1841,6 +1841,7 @@
     "hbg.com";
     "hbo.com";
     "hbomax.com";
+    "hdhive.com";
     "hdtvb.net";
     "hdzog.com";
     "heartyit.com";
@@ -3729,6 +3730,7 @@
     "truebuddha-md.org";
     "trustwallet.com";
     "truthsocial.com";
+    "tryai.dev";
     "tryheart.jp";
     "tsdr.uspto.gov";
     "tt1069.com";
@@ -4416,4 +4418,4 @@
 /ip dns cache flush
 
 # Log completion
-/log info "GFW domain list updated with 4400 domains"
+/log info "GFW domain list updated with 4402 domains"
