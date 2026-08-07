@@ -307,7 +307,6 @@
     "atnext.com";
     "auctions.yahoo.co.jp";
     "audacy.com";
-    "auntology.fandom.com";
     "autodraw.com";
     "av.movie";
     "av01.tv";
@@ -1227,6 +1226,7 @@
     "falunhr.org";
     "famunion.com";
     "fanbox.cc";
+    "fandom.com";
     "fangeqiang.com";
     "fanglizhi.info";
     "fangong.org";
@@ -1923,7 +1923,6 @@
     "home.saxo";
     "homedepot.com";
     "homeservershow.com";
-    "hongkong.fandom.com";
     "hongkongfp.com";
     "hongzhi.li";
     "honven.xyz";
@@ -4418,4 +4417,4 @@
 /ip dns cache flush
 
 # Log completion
-/log info "GFW domain list updated with 4402 domains"
+/log info "GFW domain list updated with 4401 domains"
