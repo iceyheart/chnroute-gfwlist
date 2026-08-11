@@ -169,7 +169,7 @@ EOL
 create_dnsmasq_conf() {
     local input_file="$GFWLIST"
     local output_file="$GFWLIST_CONF"
-    local dns_server="198.18.0.2" # 你的 TUN 模式 Fake-IP DNS
+    local dns_server="10.0.0.80" # 你的 TUN 模式 Fake-IP DNS
     
     if [[ ! -f "$input_file" ]]; then
         log_error "Input file $input_file not found"
@@ -184,6 +184,7 @@ create_dnsmasq_conf() {
     # 写入头部注释
     cat <<EOL >"$tmp_file"
 # dnsmasq rules for TUN Fake-IP mode
+# Generated date: $(date '+%Y-%m-%d %H:%M:%S')
 # Total domains: $(wc -l < "$input_file")
 
 EOL
