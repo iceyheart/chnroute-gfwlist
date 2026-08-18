@@ -3181,6 +3181,7 @@
     "s-cute.com";
     "s.yimg.com";
     "s3-ap-northeast-1.amazonaws.com";
+    "s3.dualstack.us-west-2.amazonaws.com";
     "sacks.com";
     "sacom.hk";
     "sadistic-v.com";
@@ -4129,6 +4130,7 @@
     "willw.net";
     "wilsoncenter.org";
     "windscribe.com";
+    "windy.com";
     "wingamestore.com";
     "wingy.site";
     "wionews.com";
@@ -4423,4 +4425,4 @@
 /ip dns cache flush
 
 # Log completion
-/log info "GFW domain list updated with 4407 domains"
+/log info "GFW domain list updated with 4409 domains"
