@@ -234,6 +234,7 @@
     "api.palworldgame.com";
     "api.pureapk.com";
     "api.recaptcha.net";
+    "api.shuaiapi.com";
     "api.steampowered.com";
     "api5.futunn.com";
     "apiary.io";
@@ -4228,6 +4229,7 @@
     "x.com";
     "x.company";
     "x3guide.com";
+    "x86.fr";
     "xbabe.com";
     "xbookcn.com";
     "xbtce.com";
@@ -4432,4 +4434,4 @@
 /ip dns cache flush
 
 # Log completion
-/log info "GFW domain list updated with 4416 domains"
+/log info "GFW domain list updated with 4418 domains"
