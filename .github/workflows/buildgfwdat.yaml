@@ -18,19 +18,19 @@ jobs:
       - name: Set up Go
         uses: actions/setup-go@v5
         with:
-          go-version: '1.21'
+          go-version: '1.23' # 已更新为推荐的版本
 
       - name: Prepare Data Directory and Build gfw.dat
         run: |
-          # 1. 创建临时的 build_data 目录，并将根目录的 gfwlist.txt 复制进去重命名为 gfw (即 Tag 名称)
+          # 1. 创建临时的 build_data 目录，并将 gfwlist.txt 复制进去重命名为 gfw (即 Tag 名称)
           mkdir -p build_data
           cp gfwlist.txt build_data/gfw
 
           # 2. 安装官方编译工具
           go install github.com/v2fly/domain-list-community@latest
 
-          # 3. 编译生成根目录下的 gfw.dat
-          $(go env GOPATH)/bin/domain-list-community --datPath=gfw.dat --dir=build_data
+          # 3. 使用更新后的参数编译生成 gfw.dat
+          $(go env GOPATH)/bin/domain-list-community -datapath=build_data -outputname=gfw.dat -outputdir=./
 
       - name: Generate Release Tag
         id: tag
