@@ -1,4 +1,4 @@
-name: Build gfw.dat
+name: Build gfwlist.dat
 
 on:
   workflow_run:
