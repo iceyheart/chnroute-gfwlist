@@ -1,15 +1,20 @@
 name: Build gfw.dat
 
 on:
+  workflow_run:
+    workflows: ["main"] 
+    types:
+      - completed
   push:
     branches: [ main ]
     paths:
       - 'gfwlist.txt'
-      - '.github/workflows/**'
   workflow_dispatch:
 
 jobs:
   build:
+    # 如果是 workflow_run 触发，要求上游 Workflow 必须成功才执行
+    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
@@ -18,30 +23,19 @@ jobs:
       - name: Set up Go
         uses: actions/setup-go@v5
         with:
-          go-version: '1.23' # 已更新为推荐的版本
+          go-version: '1.23'
+          cache: false
 
       - name: Prepare Data Directory and Build gfw.dat
         run: |
-          # 1. 创建临时的 build_data 目录，并将 gfwlist.txt 复制进去重命名为 gfw (即 Tag 名称)
           mkdir -p build_data
           cp gfwlist.txt build_data/gfw
-
-          # 2. 安装官方编译工具
           go install github.com/v2fly/domain-list-community@latest
-
-          # 3. 使用更新后的参数编译生成 gfw.dat
           $(go env GOPATH)/bin/domain-list-community -datapath=build_data -outputname=gfw.dat -outputdir=./
+          rm -rf build_data
 
-      - name: Generate Release Tag
-        id: tag
-        run: |
-          echo "RELEASE_TAG=$(date +'%Y%m%d%H%M%S')" >> $GITHUB_ENV
-
-      - name: Upload gfw.dat to Release
-        uses: softprops/action-gh-release@v2
+      - name: Commit and Push gfw.dat to Repository
+        uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          tag_name: ${{ env.RELEASE_TAG }}
-          name: "Release ${{ env.RELEASE_TAG }}"
-          files: gfw.dat
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          commit_message: "auto: update gfw.dat [skip ci]"
+          file_pattern: "gfw.dat"
