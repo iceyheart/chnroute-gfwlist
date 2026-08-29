@@ -31,11 +31,11 @@ jobs:
           mkdir -p build_data
           cp gfwlist.txt build_data/gfw
           go install github.com/v2fly/domain-list-community@latest
-          $(go env GOPATH)/bin/domain-list-community -datapath=build_data -outputname=gfw.dat -outputdir=./
+          $(go env GOPATH)/bin/domain-list-community -datapath=build_data -outputname=gfwlist.dat -outputdir=./
           rm -rf build_data
 
       - name: Commit and Push gfw.dat to Repository
         uses: stefanzweifel/git-auto-commit-action@v7
         with:
-          commit_message: "auto: update gfw.dat [skip ci]"
-          file_pattern: "gfw.dat"
+          commit_message: "auto: update gfwlist.dat"
+          file_pattern: "gfwlist.dat"
