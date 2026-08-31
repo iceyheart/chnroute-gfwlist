@@ -30,8 +30,9 @@
 | [LAN.rsc](./LAN.rsc) | 内网 IPv4 地址段 |
 | [gfwlist.rsc](./gfwlist.rsc) | 从 gfwlist 生成的 RouterOS DNS 规则脚本 |
 | [gfwlist_v7.rsc](./gfwlist_v7.rsc) | 适用于 RouterOS v7.6+ 版本的优化脚本（使用 Match Subdomains 功能） |
-| [03-gfwlist.conf](./03-gfwlist.conf) | dnsmasq 格式的 gfwlist 规则（可用于 OpenWrt 等系统） |
+| [gfwlist.conf](./gfwlist.conf) | dnsmasq 格式的 gfwlist 规则（可用于 OpenWrt 等系统） |
 | [gfwlist.txt](./gfwlist.txt) | 处理后的纯文本域名列表 |
+| [gfwlist.dat](./gfwlist.dat) | v2ray 格式的 gfw 列表，用于在域名规则中引入，比如 domain(ext:gfwlist.dat:gfw) |
 
 ### 1.3 自定义列表
 
