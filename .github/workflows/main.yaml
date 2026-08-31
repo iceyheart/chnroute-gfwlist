@@ -1,4 +1,4 @@
-name: Make and Commit
+name: Make gfwlist
 
 on:
   schedule:
@@ -12,7 +12,7 @@ on:
       - 'docs/**'
 
 jobs:
-  build:
+  update_gfwlist:
     runs-on: ubuntu-latest
 
     steps:
@@ -53,3 +53,30 @@ jobs:
         else
           echo "::notice::No changes detected, skipping commit"
         fi
+
+  update_dat:
+    needs: update_gfwlist
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v7
+
+      - name: Set up Go
+        uses: actions/setup-go@v7
+        with:
+          go-version: '1.25'
+          cache: false
+          
+      - name: Prepare Data Directory and Build gfw.dat
+        run: |
+          mkdir -p build_data
+          cp gfwlist.txt build_data/gfw
+          go install github.com/v2fly/domain-list-community@latest
+          $(go env GOPATH)/bin/domain-list-community -datapath=build_data -outputname=gfwlist.dat -outputdir=./
+          rm -rf build_data
+
+      - name: Commit and Push gfw.dat to Repository
+        uses: stefanzweifel/git-auto-commit-action@v7
+        with:
+          commit_message: "auto: update gfwlist.dat"
+          file_pattern: "gfwlist.dat"
