@@ -78,5 +78,5 @@ jobs:
       - name: Commit and Push gfw.dat to Repository
         uses: stefanzweifel/git-auto-commit-action@v7
         with:
-          commit_message: "auto: update gfwlist.dat"
+          commit_message: "使用方法: domain(ext:gfwlist.dat:gfw)"
           file_pattern: "gfwlist.dat"
