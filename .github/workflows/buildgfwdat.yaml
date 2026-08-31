@@ -2,11 +2,11 @@ name: Build gfwlist.dat
 
 on:
   workflow_run:
-    workflows: ["main"] 
+    workflows: ["name: Make and Commit"] 
     types:
       - completed
   push:
-    branches: [ main ]
+    branches: [ master ]
     paths:
       - 'gfwlist.txt'
   workflow_dispatch:
