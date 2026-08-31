@@ -77,6 +77,8 @@ jobs:
 
       - name: Commit and Push gfw.dat to Repository
         uses: stefanzweifel/git-auto-commit-action@v7
+        env:
+          ENV_DATE: $(date +'%Y-%m-%d %H:%M:%S')
         with:
-          commit_message: "使用方法: domain(ext:gfwlist.dat:gfw)"
+          commit_message: "Automated update: $(date +'%Y-%m-%d %H:%M:%S')"
           file_pattern: "gfwlist.dat"
