@@ -80,5 +80,5 @@ jobs:
         env:
           ENV_DATE: $(date +'%Y-%m-%d %H:%M:%S')
         with:
-          commit_message: "Automated update: $(date +'%Y-%m-%d %H:%M:%S')"
+          commit_message: "Automated update: ${{ env.ENV_DATE }}"
           file_pattern: "gfwlist.dat"
