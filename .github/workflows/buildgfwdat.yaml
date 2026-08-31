@@ -2,7 +2,7 @@ name: Build gfwlist.dat
 
 on:
   workflow_run:
-    workflows: ["name: Make and Commit"] 
+    workflows: ["Make and Commit"] 
     types:
       - completed
   push:
