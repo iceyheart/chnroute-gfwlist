@@ -216,17 +216,12 @@ check_git_status() {
         return 0
     fi
     
-    # Check if there's only one change in the git repository
-    if [[ $(git status -s | wc -l) -eq 1 ]]; then
-        log_info "Only one change detected, checking out $GFWLIST_CONF"
-        if git checkout "$GFWLIST_CONF"; then
-            log_success "Successfully checked out $GFWLIST_CONF"
-        else
-            log_error "Failed to checkout $GFWLIST_CONF"
-            return 1
-        fi
+    # 如果 gfwlist.txt 没有实质改动，则放弃 conf 的时间戳更新
+    if git diff --quiet "$GFWLIST"; then
+        log_info "No changes detected in $GFWLIST, reverting $GFWLIST_CONF..."
+        git checkout "$GFWLIST_CONF" 2>/dev/null || true
     else
-        log_info "Multiple changes detected, not checking out $GFWLIST_CONF"
+        log_info "$GFWLIST was modified, keeping $GFWLIST_CONF updates."
     fi
     
     return 0
