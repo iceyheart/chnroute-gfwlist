@@ -1,7 +1,7 @@
 # RouterOS script for GFW domain list - Version v7
-# Source: https://github.com/ruijzhan/chnroute
+# Source: https://github.com/iceyheart/chnroute-gfwlist
 
-:global dnsserver
+:global dnsserver "10.0.0.10"
 /ip dns static remove [/ip dns static find forward-to=$dnsserver ]
 /ip dns static
 :local domainList {
