@@ -126,9 +126,9 @@ create_gfwlist_rsc() {
     # Write header to the temporary file
     cat <<EOL >"$tmp_file"
 # RouterOS script for GFW domain list - Version $version
-# Source: https://github.com/ruijzhan/chnroute
+# Source: https://github.com/iceyheart/chnroute-gfwlist
 
-:global dnsserver
+:global dnsserver "10.0.0.10"
 /ip dns static remove [/ip dns static find forward-to=\$dnsserver ]
 /ip dns static
 :local domainList {
