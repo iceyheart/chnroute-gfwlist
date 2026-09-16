@@ -2118,6 +2118,7 @@
     "isc.sans.edu";
     "isgreat.org";
     "ishr.ch";
+    "isif.net";
     "islam.org.hk";
     "islamhouse.com";
     "ismaelan.com";
@@ -4433,4 +4434,4 @@
 /ip dns cache flush
 
 # Log completion
-/log info "GFW domain list updated with 4417 domains"
+/log info "GFW domain list updated with 4418 domains"

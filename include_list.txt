@@ -20,6 +20,7 @@ gspe1-ssl.ls.apple.com
 hdhive.com
 hysteria.network
 incudal.com
+isif.net
 litevm.net
 loader.to
 max.com
@@ -32,4 +33,3 @@ xiaoya.pro
 zhuifan.link
 zoot.plus
 zouter.io
-isif.net
