@@ -32,3 +32,4 @@ xiaoya.pro
 zhuifan.link
 zoot.plus
 zouter.io
+isif.net
