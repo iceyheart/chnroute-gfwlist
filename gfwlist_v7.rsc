@@ -2392,6 +2392,7 @@
     "lzmtnews.org";
     "m.me";
     "m.moegirl.org";
+    "macacaaca.top";
     "macgamestore.com";
     "mad-ar.ch";
     "madewithcode.com";
@@ -4434,4 +4435,4 @@
 /ip dns cache flush
 
 # Log completion
-/log info "GFW domain list updated with 4418 domains"
+/log info "GFW domain list updated with 4419 domains"
