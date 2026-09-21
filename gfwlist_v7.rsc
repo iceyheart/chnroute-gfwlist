@@ -769,6 +769,7 @@
     "chinesegay.org";
     "chinesen.de";
     "chinesenews.net.au";
+    "chineseposters.net";
     "chineseradioseattle.com";
     "chineseupress.com";
     "chingcheong.com";
@@ -2709,6 +2710,7 @@
     "nordstromrack.com";
     "nordvpn.com";
     "nos.nl";
+    "note.com";
     "notepad-plus-plus.org";
     "notion.site";
     "nottinghampost.com";
@@ -4435,4 +4437,4 @@
 /ip dns cache flush
 
 # Log completion
-/log info "GFW domain list updated with 4419 domains"
+/log info "GFW domain list updated with 4421 domains"
