@@ -13,6 +13,7 @@
     "10musume.com";
     "123av.com";
     "123av.me";
+    "123av.org";
     "12bet.com";
     "12vpn.com";
     "12vpn.net";
@@ -2252,6 +2253,7 @@
     "kichiku-doujinko.com";
     "kik.com";
     "killwall.com";
+    "kimootoko.net";
     "kindle4rss.com";
     "kindleren.com";
     "kingdomsalvation.org";
@@ -2538,6 +2540,7 @@
     "minhhue.net";
     "miningpoolhub.com";
     "ministrybooks.org";
+    "minkch.com";
     "minzhuzhongguo.org";
     "miraheze.org";
     "mirdc.org.tw";
@@ -2599,6 +2602,7 @@
     "mosavi.io";
     "motherless.com";
     "movements.org";
+    "movie.eroterest.net";
     "moviefap.com";
     "mpettis.com";
     "mpfinance.com";
@@ -2732,6 +2736,9 @@
     "niu.moe";
     "niusnews.com";
     "njactb.org";
+    "njav.com";
+    "njav.tv";
+    "njavtv.com";
     "nlfreevpn.com";
     "nmsl.website";
     "nnews.eu";
@@ -2987,6 +2994,7 @@
     "plurk.com";
     "plus.codes";
     "pmatehunter.com";
+    "po-kaki-to.com";
     "po2b.com";
     "podbean.com";
     "podcast.co";
@@ -4465,6 +4473,7 @@
     "zorrovpn.com";
     "zouter.io";
     "zozotown.com";
+    "zozovideo.com";
     "zpn.im";
     "zspeeder.me";
     "zuo.la";
@@ -4485,4 +4494,4 @@
 /ip dns cache flush
 
 # Log completion
-/log info "GFW domain list updated with 4469 domains"
+/log info "GFW domain list updated with 4478 domains"
