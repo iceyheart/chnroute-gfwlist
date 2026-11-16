@@ -53,6 +53,7 @@
     "51.ca";
     "51jav.org";
     "51luoben.com";
+    "51papaya.com";
     "5278.cc";
     "52shuku.net";
     "611study.com";
@@ -419,6 +420,7 @@
     "bignews.org";
     "bigone.com";
     "bild.de";
+    "bilibili.tv";
     "bilinovel.com";
     "biliworld.com";
     "binance.com";
@@ -2467,7 +2469,6 @@
     "matters.town";
     "matthewdgreen.wordpress.com";
     "mattwilcox.net";
-    "maven.neoforged.net";
     "max.com";
     "mcadforums.com";
     "mcaf.ee";
@@ -2677,6 +2678,7 @@
     "nekoslovakia.net";
     "neo-miracle.com";
     "neodb.social";
+    "neoforged.net";
     "neowin.net";
     "nephobox.com";
     "netalert.me";
@@ -4502,4 +4504,4 @@
 /ip dns cache flush
 
 # Log completion
-/log info "GFW domain list updated with 4486 domains"
+/log info "GFW domain list updated with 4488 domains"
