@@ -143,6 +143,7 @@
     "agro.hk";
     "ai.dev";
     "ai.studio";
+    "aicu.cc";
     "aidc.com.tw";
     "aihub.top";
     "aiosearch.com";
@@ -978,6 +979,7 @@
     "daliulian.org";
     "danbooru.donmai.us";
     "danke4china.net";
+    "danmakus.com";
     "darmau.co";
     "darpa.mil";
     "darrenliuwei.com";
@@ -3452,6 +3454,7 @@
     "southnews.com.tw";
     "southpark.cc.com";
     "sowers.org.hk";
+    "spacedesk.net";
     "spaceforce.mil";
     "spaces.hightail.com";
     "spacex.com";
@@ -4532,4 +4535,4 @@
 /ip dns cache flush
 
 # Log completion
-/log info "GFW domain list updated with 4516 domains"
+/log info "GFW domain list updated with 4519 domains"
